@@ -5,15 +5,16 @@
   <title>Schema</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
+<form onsubmit="addExam(event)">
+<div class ="form">
   <input id="course" placeholder="Kurs">
   <input id="date" placeholder="Datum">
   <input id="type" placeholder="Typ">
   <button onclick="addExam()">Lägg till</button>
+</div>
 
   <div id="months"></div>
 
   <script src="script.js"></script>
-</body>
+</form>
 </html>
