@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f5;
+  padding: 20px;
+}
+
+#months {
+  display: grid;
+  gap: 20px;
+}
+
+.month-box {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.month-box h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.month-exams {
+  display: grid;
+  gap: 12px;
+}
+
+.schedule-card {
+  background: #f2f2f7;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.schedule-card h3 {
+  margin: 0 0 6px 0;
+}
+
+.schedule-card span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.schedule-card p {
+  margin: 0;
+  color: #555;
+}

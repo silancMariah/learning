@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9fb;
+    padding: 40 px
+}
+
+.schedule-container {
+    display: grid;
+    gap: 30px;
+}
+
+.schedule-month {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.schedule-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15 px;
+}
+
+.schedule-card {
+    background: #f2f2f7;
+    padding: 15 px;
+    border-radius: 12px;
+}
+
+.schedule-type {
+    font-weight: bold;
+    color: #ff6b6b;
+    margin: 0;
+}
+
+.schedule-course {
+    margin: 5px 0;
+}
+
+.schedule-date {
+    color: gray;
+    font-size: 14px;
+}
