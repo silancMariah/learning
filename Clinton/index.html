@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SENSAiO Acoustic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="card">
+        <div class="card-content">
+            <span class="label">Produkt</span>
+            <h1><span class="brand">SENSAiO Acoustic</span></h1>
+            <p class="tagline">Trådlös industriell akustiksensor som upptäcker läckage, vibrationer och maskinfel i realtid.</p>
+            <p>Med SENSAiO Acoustic får du snabb och tillförlitlig övervakning av rörsystem. Sensorn analyserar ljudvågor i industrimiljöer, larmar vid avvikande ljud och skickar data trådlöst till din plattform.</p>
+            <div class="product-meta">
+                <div class="price">15 900 kr</div>
+                <button class="buy-btn">Beställ nu</button>
+            </div>
+            <ul class="feature-list">
+                <li>ATEX Zone 1-certifierad för explosiva miljöer</li>
+                <li>Upp till 10 km trådlös räckvidd</li>
+                <li>Enkelt batteribyte utan verktyg</li>
+            </ul>
+        </div>
+
+        <div class="sensor-wrapper">
+            <img id="sensor" src="public/acoustic.png" alt="SENSAiO acoustic sensor">
+            <button id="infoBtn" class="info-btn">Så används sensorn <img src="public/diagonal-arrow.png" class="arrow"></button>
+        </div>
+
+        <div id="popup" class="popup hidden">
+            <button id="close">x</button>
+            <h2>Så används sensorn</h2>
+            <section class="steps">
+                <div class="step">
+                    <img src="public/sensor.png" alt="Montera enkelt">
+                    <h3>Montera enkelt</h3>
+                    <p>Fäst sensorn på rör eller ventiler.</p>
+                </div>
+                <div class="step">
+                    <img src="public/equalizer.png" alt="Lyssnar kontinuerligt">
+                    <h3>Lyssnar kontinuerligt</h3>
+                    <p>Analyserar ljud och ultraljud i realtid.</p>
+                </div>
+                <div class="step">
+                    <img src="public/crisis.png" alt="Upptäcker avvikelser">
+                    <h3>Upptäcker avvikelser</h3>
+                    <p>Identifierar läckor och fel tidigt.</p>
+                </div>
+                <div class="step">
+                    <img src="public/server.png" alt="Skickar data">
+                    <h3>Skickar data</h3>
+                    <p>Trådlös överföring till dashboard.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f5f8;
+    padding: 40px;
+    color: #2f2c33;
+}
+
+/* själva kortet */
+.card {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 28px;
+    background: white;
+    padding: 32px;
+    border-radius: 24px;
+    max-width: 980px;
+    margin: auto;
+    box-shadow: 0 24px 80px rgba(35, 24, 70, 0.08);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+}
+
+.label {
+    display: inline-block;
+    background: #ede1fc;
+    color: #6d3fa4;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-weight: 700;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 1.02;
+}
+
+.brand {
+    color: #52117e;
+}
+
+.tagline {
+    margin: 0;
+    font-size: 1.05rem;
+    color: #5f5b6d;
+}
+
+.text p {
+    margin: 0;
+    font-size: 1rem;
+    max-width: 560px;
+    line-height: 1.7;
+    color: #4b4955;
+}
+
+.product-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1d1a1f;
+}
+
+.buy-btn {
+    background: #52117e;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 16px 28px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 18px 40px rgba(82, 17, 126, 0.18);
+}
+
+.feature-list {
+    margin: 0;
+    padding-left: 20px;
+    color: #4b4955;
+}
+
+.feature-list li {
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+.sensor-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    justify-content: center;
+}
+
+#sensor {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 24px;
+    box-shadow: 0 28px 70px rgba(82, 17, 126, 0.18);
+}
+
+.info-btn {
+    width: 100%;
+    max-width: 320px;
+    height: 46px;
+    border: 1px solid #d9d2e9;
+    color: #52117e;
+    font-weight: 700;
+    cursor: pointer;
+    background: white;
+    border-radius: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.arrow {
+    width: 14px;
+    filter: invert(29%) sepia(40%) saturate(628%) hue-rotate(237deg) brightness(92%) contrast(92%);
+}
+
+.popup {
+    position: absolute;
+    right: 40px;
+    top: 170px;
+    width: 600px;
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 18px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.hidden {
+    display: none;
+}
+
+#close {
+    float: right;
+    border: none;
+    background: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-top: 36px;
+}
+
+.step {
+    text-align: center;
+}
+
+.step img {
+    width: 56px;
+    margin-bottom: 14px;
+}
+
+.step h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.step p {
+    color: #555;
+    font-size: 14px;
+}
+
+.step:hover {
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+@media (max-width: 860px) {
+    .card {
+        grid-template-columns: 1fr;
+    }
+
+    .card-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .text p,
+    .feature-list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product-meta {
+        justify-content: center;
+    }
+}
+
+
+.arrow{
+    width: 10px;
+    position: relative; 
+    filter: invert(50%) sepia(70%) saturate(400%) hue-rotate(250deg);
+    opacity: 50%;
+    top: 2px;
+
+}
+.popup {
+    position: absolute;
+    right: 40px;
+    top: 160px;
+    width: 600px;
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 18px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+#close {
+    float: right;
+    border: none;
+    background: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.step {
+    text-align: center;
+}
+
+.step img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.step h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.step p {
+    color:#555;;
+    font-size: 14px;
+}
+
+.step:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
